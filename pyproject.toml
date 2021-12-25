@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "wav2vec2_finetune_flash"
+version = "0.1.0"
+description = ""
+authors = ["dmitriy.shyrmakin <dmitriy.shyrmakin@skillbox.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+loguru = "*"
+rope = "*"
+toml = "*"
+pre-commit = "^2.13.0"
+torch = "^1.10.1"
+transformers = "4.9.1"
+torchaudio = "^0.10.0"
+soundfile = "^0.10.3"
+torchvision = "^0.11.1"
+ffmpeg = "^1.4"
+llvmlite = "0.36.0rc1"
+audiomentations = {version = "^0.20.0", extras = ["pydub"]}
+noisereduce = "^2.0.0"
+lightning-flash = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
