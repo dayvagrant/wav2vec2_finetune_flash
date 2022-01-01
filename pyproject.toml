@@ -2,7 +2,7 @@
 name = "wav2vec2_finetune_flash"
 version = "0.1.0"
 description = ""
-authors = ["dmitriy.shyrmakin <dmitriy.shyrmakin@skillbox.ru>"]
+authors = ["dayvagrant"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -23,6 +23,8 @@ noisereduce = "^2.0.0"
 lightning-flash = "^0.6.0"
 datasets = "^1.17.0"
 SoundFile = "^0.10.3"
+mlflow = "^1.22.0"
+wandb = "^0.12.9"
 
 [tool.poetry.dev-dependencies]
 

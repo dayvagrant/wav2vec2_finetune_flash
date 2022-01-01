@@ -116,3 +116,4 @@ pytorch_model_domain_adaptation_23k.bin
 model_config.json
 list_of_words_all_sources.txt
 all_sources_5_gramm.binary
+data

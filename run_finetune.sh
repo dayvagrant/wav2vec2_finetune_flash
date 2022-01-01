@@ -1,8 +1,7 @@
 #!/bin/sh
-poetry run python3 finetune.py -train_file data/train_data_40k.csv \
--val_file data/val_data.csv \
--test_file data/test_data.csv \
--predict_file data/test_data.csv \
--fast_dev_run true
+poetry run python3 finetune.py -train_file data/ourcalls_train_data_dir.csv \
+-val_file data/ourcalls_val_data_dir.csv \
+-test_file data/ourcalls_test_data_dir.csv \
+-predict_file data/ourcalls_test_data_dir.csv
 
 
